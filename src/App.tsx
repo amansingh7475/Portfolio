@@ -80,7 +80,7 @@ function App() {
         <div className="hero-copy">
           <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .6 }} className="availability"><span className="pulse" /> Available for new opportunities</motion.div>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: .2 }} className="hero-kicker">Hello, I’m</motion.p>
-          <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .35, duration: .75 }}>Aman<span className="lime">.</span></motion.h1>
+          <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .35, duration: .75 }}>Aman Singh<span className="lime">.</span></motion.h1>
           <motion.div className="typed-line" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: .65 }}><span className="slash">/</span> {typed}<span className="caret">_</span></motion.div>
           <motion.p className="hero-intro" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .8 }}>I build thoughtful digital experiences where clean interfaces meet reliable, real-world systems.</motion.p>
           <motion.div className="hero-actions" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .95 }}><a className="button button-primary" href="#projects" onClick={(e) => { e.preventDefault(); go('projects') }}>View projects <ArrowUpRight size={17} /></a><a className="button button-ghost" href="#contact" onClick={(e) => { e.preventDefault(); go('contact') }}>Contact me</a><a className="button button-ghost resume-button" href="/AmanResume.pdf" download>Download resume <ArrowUpRight size={16} /></a></motion.div>
